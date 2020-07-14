@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Income Tax Calculator";
+}
+
+    <form method="post">
+        <div class="text-center">
+            <h5>Calculate your income tax</h5>
+            <label>Postal Code</label>
+            <input type="text" name="PostCode"/>
+
+            <label>Income</label>
+            <input type="number" name="AnnualIncome"/>
+        </div>
+        <input type="submit">
+    </form>
+
+    
